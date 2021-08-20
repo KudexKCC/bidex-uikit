@@ -1,22 +1,22 @@
-# 💻 Kudex UIkit
+# 💻 Bidex UIkit
 
-[![Version](https://img.shields.io/npm/v/@kudexkcc/kudex-uikit)](https://www.npmjs.com/package/@kudexkcc/kudex-uikit) [![Size](https://img.shields.io/bundlephobia/min/@kudexkcc/kudex-uikit)](https://www.npmjs.com/package/@kudexkcc/kudex-uikit)
+[![Version](https://img.shields.io/npm/v/@kudexkcc/bidex-uikit)](https://www.npmjs.com/package/@kudexkcc/bidex-uikit) [![Size](https://img.shields.io/bundlephobia/min/@kudexkcc/bidex-uikit)](https://www.npmjs.com/package/@kudexkcc/bidex-uikit)
 
-Kudex UIkit is a set of React components and hooks used to build pages on Kudex's apps. It also contains a theme file for dark and light mode.
+Bidex UIkit is a set of React components and hooks used to build pages on Bidex's apps. It also contains a theme file for dark and light mode.
 
 ## Install
 
-`yarn add @kudexkcc/kudex-uikit`
+`yarn add @kudexkcc/bidex-uikit`
 
 ## Setup
 
 ### Theme
 
-Before using Kudex UIkit, you need to provide the theme file to styled-component.
+Before using Bidex UIkit, you need to provide the theme file to styled-component.
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@kudexkcc/kudex-uikit'
+import { light, dark } from '@kudexkcc/bidex-uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -26,7 +26,7 @@ import { light, dark } from '@kudexkcc/kudex-uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from '@kudexkcc/kudex-uikit'
+import { ResetCSS } from '@kudexkcc/bidex-uikit'
 ...
 <ResetCSS />
 ```
